@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /*box-sizing: border-box;*/
+ 
+}
+
+header {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav {
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    align-items: center;
+    padding-inline: 30px;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.buttons {
+    background-color: #ffffff;
+}
+
+nav button {
+    background-color: #ffffff;
+    border: none;
+    margin-left: 30px;
+    font-size: 1.5rem;
+}
+
+.Try {
+    background-color: hsl(170, 75%, 41%);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+main {
+    background-color: hsl(0, 0%, 90%);
+    height: 190vh;
+    padding-top: 150px;
+
+}
+
+.box-center {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 100px;
+    padding-bottom: 45px; /*padding or margin*/
+    
+}
+
+.box-left {
+    align-items: center;
+    width: 70%;
+    padding-right: 250px;
+}
+
+.box-right{
+        width: 50%; 
+        display: flex;
+        flex-direction: column;   
+        background-image: url('images/hero-shape-2.png');
+}
+
+.img-cover1{   
+    object-fit: cover;
+    position: relative;
+    top: 54px;
+    right: 184px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 110px;
+    height: 340px;
+ 
+}
+
+.img-cover2{   
+    object-fit: cover;
+    position: relative;
+    left: 112px;
+    bottom: 128px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 110px;
+    height: 359px;
+}
+
+
+.box-left h1 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 70px;
+    padding-bottom: 33px;
+
+}
+
+.box-center .box-left span{
+    color: hsl(351, 83%, 61%);;
+}
+
+.box-left h4 {
+    font-size: 1rem;
+    font-weight:450;
+    padding-bottom: 33px;
+}
+
+.box-left button {
+    background-color: hsl(170, 75%, 41%);
+    border-radius: 10px 10px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    width: 150px;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.category-headline {
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.category-headline h3 {
+    padding-top: 30px;
+    color: hsl(351, 83%, 61%);
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding-bottom: 15px;
+}
+
+.category-headline h1 {
+    font-weight: 600;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.category-headline h5 {
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 40px;
+}
+
+.category-headline span {
+    color: hsl(170, 75%, 41%);
+
+}
+
+.types-of-courses {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+.online1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 250px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: hsla(170, 75%, 41%, 0.1);
+}
+
+.online1 img, .online2 img, .online3 img, .online4 img {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.online1 h1, .online2 h1, .online3 h1, .online4 h1{
+    font-size: 1.45rem;
+    font-weight: 600;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.online1 h4, .online2 h4, .online3 h4,.online4 h4{
+    font-size: 0.8rem;
+    font-weight: 450;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.online1 button, .online2 button, .online3 button, .online4 button  {
+    width: 120px;
+    height: 30px;
+    padding: 2px 18px;
+    background-color: rgb(159 253 255 / 59%);
+    color: #1ab79d;
+    font-size: smaller;
+    border: none;
+}
+
+.online2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 250px;
+    background-color: hsla(351, 83%, 61%, 0.1);
+    margin-right: 20px;
+    text-align: center;
+}
+
+.online2 button{
+    color: #ee4963;
+    background-color: rgb(249, 196, 204);
+    border: none;
+}
+.online3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 250px;
+    background-color: hsla(229, 75%, 58%, 0.1);
+    margin-right: 20px;
+    text-align: center;
+}
+
+.online3 button {
+    color: hsl(229, 75%, 58%);
+    background-color: rgb(157 169 231 / 59%);;
+    border: none;
+}
+.online4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 250px;
+    background-color: hsla(42, 94%, 55%, 0.1);
+    margin-right: 20px;
+    text-align: center;
+}
+
+.online4 button {
+        color: hsl(42, 94%, 55%);
+        background-color: rgb(248 255 159 / 59%);
+        border: none;
+}
+
+footer {
+    background-color: hsl(180, 3%, 7%);
+    position: relative;
+    color: #ffffff;
+    height: 80vh;
+}
+
+.footer-center {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    margin-right: 100px;
+    padding-top: 120px;
+
+}
+
+.footer1, .footer2, .footer3, .footer4 {
+    width: 313px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.footer1 img {
+    position: relative;
+    padding-bottom: 20px;
+    right: 50px;
+
+}
+
+.footer1 h4 {
+    font-size: 0.8rem;
+    font-weight: 450;
+    padding-bottom: 20px;
+
+}
+
+.footer1 .two {
+    position: relative;
+    right: 36px;
+}
+
+.footer1 p {
+    font-size: 0.8rem;
+    font-weight: 450;
+    padding-bottom: 20px;
+    
+}
+
+.footer3 li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.footer3 .main {
+    font-size: 2rem;
+}
+
+.footer2 li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.footer2 .main {
+    font-size: 2rem;
+}
+ooter4 {
+    width: 313px;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+  }
+  
+  .footer4 h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  
+  .footer4 p {
+    font-size: 0.8rem;
+    font-weight: 450;
+    padding-bottom: 20px;
+  }
+  
+  .footer4 .inputs {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .footer4 .inputs input {
+    height: 40px;
+    width: 200px;
+    padding: 0 10px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 0.9rem;
+  }
+  
+  .footer4 .inputs input::placeholder {
+    color: #ffffff;
+    opacity: 0.7;
+  }
+  
+  .footer4 .inputs button {
+    background-color: hsl(170, 75%, 41%);
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    border: none;
+    color: #ffffff;
+
+  }
+  
+  .footer4 .inputs button:hover {
+    background-color: hsl(170, 75%, 35%);
+  }
+  
+  .social-media {
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+
+ /* 
+  iphone 12 bro responsive design
+  @media screen and (max-width: 390px) {
+      header {
+          padding: 10px;
+      }
+  
+      nav {
+          flex-direction: column;
+          padding-inline: 15px;
+      }
+  
+      nav ul {
+          flex-direction: column;
+          gap: 10px;
+          margin-top: 10px;
+      }
+  
+      nav ul li {
+          font-size: 1rem;
+      }
+  
+      .buttons {
+          margin-top: 10px;
+      }
+  
+      nav button {
+          margin-left: 10px;
+          font-size: 1.2rem;
+      }
+  
+      .Try {
+          font-size: 0.9rem;
+          padding: 8px 15px;
+      }
+  
+      main {
+          height: auto;
+          padding-top: 100px;
+      }
+  
+      .box-center {
+          flex-direction: column;
+          margin-left: 15px;
+          margin-right: 15px;
+      }
+  
+      .box-left {
+          width: 100%;
+          padding-right: 0;
+      }
+  
+      .box-left h1 {
+          font-size: 2rem;
+          line-height: 1.2;
+          padding-bottom: 20px;
+      }
+  
+      .box-left h4 {
+          font-size: 0.9rem;
+      }
+  
+      .box-right {
+          width: 100%;
+          margin-top: 30px;
+      }
+  
+      .img-cover1, .img-cover2 {
+          width: 100%;
+          height: auto;
+          position: static;
+          margin-bottom: 20px;
+      }
+  
+      .category-headline h1 {
+          font-size: 2rem;
+          text-align: center;
+      }
+  
+      .category-headline h5 {
+          text-align: center;
+      }
+  
+      .types-of-courses {
+          flex-direction: column;
+          height: auto;
+          align-items: center;
+      }
+  
+      .online1, .online2, .online3, .online4 {
+          width: 90%;
+          margin-right: 0;
+          margin-bottom: 20px;
+      }
+  
+      footer {
+          height: auto;
+      }
+  
+      .footer-center {
+          flex-direction: column;
+          margin-left: 15px;
+          margin-right: 15px;
+          padding-top: 40px;
+      }
+  
+      .footer1, .footer2, .footer3, .footer4 {
+          width: 100%;
+          height: auto;
+          margin-right: 0;
+          margin-bottom: 30px;
+          align-items: flex-start;
+      }
+  
+      .footer1 img {
+          right: 0;
+      }
+  
+      .footer1 .two {
+          right: 0;
+      }
+  
+      .footer2 .main, .footer3 .main {
+          font-size: 1.5rem;
+      }
+  
+      .footer4 .inputs {
+          flex-direction: column;
+          align-items: flex-start;
+      }
+  
+      .footer4 .inputs input {
+          width: 100%;
+          margin-bottom: 10px;
+      }
+  
+      .footer4 .inputs button {
+          width: 100%;
+      }
+  
+      .social-media {
+          justify-content: flex-start;
+          gap: 20px;
+      }
+  }
+
+
+
